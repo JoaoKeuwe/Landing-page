@@ -97,10 +97,10 @@ a:hover {
 @media (max-width: 1000px) {
     body {
         background-image: url(images/astronault2.jpg);
-        background-size: cover;
+        background-size:cover;
         background-repeat: no-repeat;
         min-height: 100vh;
-        min-width: 100vh;
+        min-width: 100vw;
         background-position: center right
     }
 
@@ -146,17 +146,19 @@ a:hover {
     }
 }
 
-
-
-@media (max-width: 900px) {
-  
-
-}
-
-@media (max-width: 500px) {
+@media (max-width: 650px) {
     .main-text {
-        font-size: 20px;
-        margin-top: 25%;
+        font-size: 30px;
+        margin-top: 18%;
+    }
+
+    .subtitle {
+        font-size: 25px;
+    }
+
+
+    .button {
+        width: 15rem;
     }
 
     .social-icon {
@@ -172,3 +174,48 @@ a:hover {
         margin-right: auto;
     }
 }
+
+@media (max-width: 580px) {
+
+    .main-content {
+        margin-left: 10px;
+        margin-top: 10%;
+    }
+    .main-text {
+        font-size: 25px;
+        margin-top: 25%;
+        width: 20rem;
+        margin-right: 5rem;
+    }
+
+    .subtitle {
+        font-size: 25px;
+        width: 25rem;
+    }
+
+
+}
+
+@media (max-width: 490px) {
+
+    .main-content {
+        margin-left: 10px;
+        margin-top: 10%;
+    }
+    .main-text {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 30%;
+        width: 25rem;
+        margin-left: 6rem;
+    }
+
+    .subtitle {
+        font-size: 25px;
+        font-weight: bold;
+        width: 25rem;
+    }
+
+
+}
+
