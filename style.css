@@ -23,6 +23,17 @@ body {
     background-position: center right
 }
 
+@media (max-width: 1000px) {
+    body {
+        background-image: url(images/astronault2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        min-width: 100vh;
+        background-position: center right
+    }
+}
+
 .main-content {
     margin-left: 10%;
     margin-top: 10%;
