@@ -23,19 +23,10 @@ body {
     background-position: center right
 }
 
-@media (max-width: 1000px) {
-    body {
-        background-image: url(images/astronault2.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        min-height: 100vh;
-        min-width: 100vh;
-        background-position: center right
-    }
-}
+
 
 .main-content {
-    margin-left: 10%;
+    margin-left: 6%;
     margin-top: 10%;
 }
 
@@ -70,6 +61,14 @@ body {
     border: none;
     font-family: 'Contrail One', cursive;
     font-size: 25px;
+    transition: all 0.5s;
+}
+
+.button:hover {
+    transform: scale(1.1);
+    background: rgb(87, 19, 48);
+    background: linear-gradient(223deg, rgba(140, 7, 64, 0.889) 0%, rgba(31, 3, 55, 1) 56%, rgb(42, 7, 46) 85%);
+    color: white;
 }
 
 .social-media-icons {
@@ -81,10 +80,56 @@ body {
     margin-top: -18rem;
 }
 
+.social-icon {
+    width: 40px;
+}
+
 a {
     transition: all 0.3s;
 }
 
 a:hover {
     transform: scale(1.1);
+}
+
+/* Responsive */
+
+@media (max-width: 1000px) {
+    body {
+        background-image: url(images/astronault2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        min-width: 100vh;
+        background-position: center right
+    }
+
+    .logo-fator-wow {
+        width: 170px;
+        margin-right: 1rem;
+    }
+}
+
+@media (max-width: 1500px) {
+    .main-text {
+        font-size: 30px;
+    }
+
+    .social-icon {
+        width: 30px;
+    }
+
+    .social-media-icons{
+        margin-top: -15rem;
+    }
+}
+
+@media (max-height: 900px) {
+    .main-text {
+        font-size: 25px;
+    }
+
+    .main-content {
+        margin-top: 12%;
+    }
 }
