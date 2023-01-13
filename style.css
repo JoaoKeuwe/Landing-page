@@ -243,3 +243,18 @@ a:hover {
     }
 
 }
+
+@media (max-width: 325px) {
+
+    .main-content {
+        display: none;
+
+    }
+
+    .logo-fator-wow {
+        width: 200px;
+        margin-top: 100%;
+
+    }
+
+}
