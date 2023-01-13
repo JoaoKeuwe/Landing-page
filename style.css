@@ -94,7 +94,7 @@ a:hover {
 @media (max-width: 1000px) {
     body {
         background-image: url(images/astronault2.jpg);
-        background-size:cover;
+        background-size: cover;
         background-repeat: no-repeat;
         min-height: 100vh;
         min-width: 100vw;
@@ -178,6 +178,7 @@ a:hover {
         margin-left: 10px;
         margin-top: 15%;
     }
+
     .main-text {
         font-size: 25px;
         margin-top: 25%;
@@ -197,10 +198,11 @@ a:hover {
     .main-content {
         margin-left: 10px;
         margin-top: 30%;
-        
+
     }
+
     .main-text {
-        font-size: 35px;
+        font-size: 30px;
         font-weight: bold;
         margin-top: 10%;
         font-family: 'Rajdhani', sans-serif;
@@ -221,16 +223,17 @@ a:hover {
     .main-content {
         margin-left: 10px;
         margin-top: 30%;
-        
+
     }
+
     .main-text {
-        font-size: 30px;
+        font-size: 27px;
         font-weight: bold;
         margin-top: 10%;
         font-family: 'Rajdhani', sans-serif;
         margin-left: 80px;
         width: 20rem;
-       
+
     }
 
     .subtitle {
@@ -240,4 +243,3 @@ a:hover {
     }
 
 }
-
